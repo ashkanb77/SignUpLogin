@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:background="@drawable/input_email_bg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:maxLines="1"
+        android:ems="20"
+        />
+
+    <EditText
+
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:background="@drawable/username_input_bg"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="18dp"
+        android:maxLines="1"
+        android:ems="20"
+        />
+
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:background="@drawable/input_password_bg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="18dp"
+        android:maxLines="1"
+        android:ems="20"
+        />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign up"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/s8_btn_bg"
+        android:textColor="#fff"
+        />
+</LinearLayout>
